@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
 
-/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 1000px */
-@media screen and (max-width: 1000px) {
-  #content, aside {
-    width: 100%;
-    padding: 0;
-  }
- }
-
-
 * {
   box-sizing: border-box;
 }
@@ -100,3 +91,11 @@ aside {
   float: left;
   width: 75%;
 }
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 1000px */
+@media screen and (max-width: 1000px) {
+  #content, aside {
+    width: 100%;
+    padding: 0;
+  }
+ }
